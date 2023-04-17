@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+
+:root {
+  --color-main: #00c2e0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.App {
+  padding: 5rem;
+  background-color: var(--color-main);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.react-trello-lane {
+  border-radius: 8px;
+}
+
+.kHaXHu {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.fDCaNw {
+  font-size: 18px !important;
+}
+
+textarea,
+.comPlainTextContentEditable--has-placeholder {
+  padding: 10px !important;
+}
+
+a {
+  text-decoration: none !important;
+  border: 0 !important;
+  transition: all 0.3s ease;
+  padding: 5px 10px !important;
+
+  &:hover {
+    background-color: #ebecf0;
+    border-radius: 3px !important;
+  }
+}
